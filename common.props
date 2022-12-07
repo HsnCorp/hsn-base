@@ -6,7 +6,6 @@
         <PackageIconUrl>https://abp.io/assets/abp_nupkg.png</PackageIconUrl>
         <!--<PackageProjectUrl>https://hsnsoft.io/</PackageProjectUrl>-->
         <PackageLicenseExpression>LGPL-3.0-only</PackageLicenseExpression>
-        <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageIcon>images\hsn-base.png</PackageIcon>
         <RepositoryType>git</RepositoryType>
@@ -27,6 +26,5 @@
     <ItemGroup>
         <None Include="..\..\hsn-base.png" Pack="true" Visible="false" PackagePath="images\hsn-base.png" />
         <None Include="..\..\README.md" Pack="true" Visible="false" PackagePath="README.md" />
-        <None Include="..\..\LICENSE.md" Pack="true" PackagePath="LICENSE.md" />
     </ItemGroup>
 </Project>

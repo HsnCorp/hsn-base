@@ -5,23 +5,18 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
-        <AssemblyName>Hsn.Base</AssemblyName>
-        <PackageId>Hsn.Base</PackageId>
+        <AssemblyName>Hsn.Base.Guids</AssemblyName>
+        <PackageId>Hsn.Base.Guids</PackageId>
         <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
         <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
         <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
         <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
         <RootNamespace />
-        <Title>Hsn Base Framework</Title>
-        <Description>Hsn Base Framework</Description>
-        <PackageTags>Hsn Base Framework</PackageTags>
+        <Title>Hsn Base Framework Guids</Title>
+        <Description>Hsn Base Framework Guids</Description>
+        <PackageTags>Hsn Base Framework Guids</PackageTags>
         <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-        <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
-
-    <ItemGroup>
-        <None Include="README.md" Pack="true" Visible="true" PackagePath="README.md" />
-    </ItemGroup>
 
     <ItemGroup>
         <ProjectReference Include="..\Hsn.Base.Core\Hsn.Base.Core.csproj" />

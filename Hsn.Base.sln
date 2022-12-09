@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hsn.Base.Core", "src\Hsn.Ba
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hsn.Base", "src\Hsn.Base\Hsn.Base.csproj", "{876A8C4A-938C-4670-AF6E-47D0F48D5369}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hsn.Base.Guids", "src\Hsn.Base.Guids\Hsn.Base.Guids.csproj", "{7F8BD04A-2262-42A7-A2F0-641A49FDDCF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -16,6 +18,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{CD86587B-8A33-4E9A-9814-746830FD1605} = {B4755A77-8C60-4854-BFAF-C369094E81BF}
 		{876A8C4A-938C-4670-AF6E-47D0F48D5369} = {B4755A77-8C60-4854-BFAF-C369094E81BF}
+		{7F8BD04A-2262-42A7-A2F0-641A49FDDCF1} = {B4755A77-8C60-4854-BFAF-C369094E81BF}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{CD86587B-8A33-4E9A-9814-746830FD1605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -26,5 +29,9 @@ Global
 		{876A8C4A-938C-4670-AF6E-47D0F48D5369}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{876A8C4A-938C-4670-AF6E-47D0F48D5369}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{876A8C4A-938C-4670-AF6E-47D0F48D5369}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F8BD04A-2262-42A7-A2F0-641A49FDDCF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F8BD04A-2262-42A7-A2F0-641A49FDDCF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F8BD04A-2262-42A7-A2F0-641A49FDDCF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F8BD04A-2262-42A7-A2F0-641A49FDDCF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -16,7 +16,12 @@
         <Description>Hsn Base Framework Core</Description>
         <PackageTags>Hsn Base Framework Core</PackageTags>
         <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="..\..\README.md" Pack="true" Visible="false" PackagePath="README.md" />
+    </ItemGroup>
 
     <ItemGroup>
         <PackageReference Include="System.Collections.Immutable" Version="$(MicrosoftPackageVersion)" />
@@ -31,9 +36,9 @@
         <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="$(MicrosoftPackageVersion)" />
         <PackageReference Include="System.Text.Encodings.Web" Version="$(MicrosoftPackageVersion)" />
         <PackageReference Include="System.Runtime.Loader" Version="4.3.0" />
-        <PackageReference Include="System.Linq.Dynamic.Core" Version="1.2.18" />
+        <PackageReference Include="System.Linq.Dynamic.Core" Version="1.2.23" />
         <PackageReference Include="System.Linq.Queryable" Version="4.3.0" />
-        <PackageReference Include="JetBrains.Annotations" Version="2022.1.0" />
+        <PackageReference Include="JetBrains.Annotations" Version="2022.3.1" />
         <PackageReference Include="Nito.AsyncEx.Coordination" Version="5.1.2" />
         <PackageReference Include="Nito.AsyncEx.Context" Version="5.1.2" />
     </ItemGroup>

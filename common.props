@@ -10,7 +10,6 @@
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
         <!-- Include symbol files (*.pdb) in the built .nupkg -->
         <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
-        <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageIcon>images\hsn-base.png</PackageIcon>
         <Authors>HsnSoft</Authors>
         <Copyright>2022</Copyright>

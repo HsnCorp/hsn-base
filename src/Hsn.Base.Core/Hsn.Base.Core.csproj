@@ -38,8 +38,4 @@
         <PackageReference Include="Nito.AsyncEx.Context" Version="5.1.2" />
     </ItemGroup>
 
-    <ItemGroup>
-        <None Include="README.md" Pack="true" Visible="false" PackagePath="README.md" />
-    </ItemGroup>
-
 </Project>

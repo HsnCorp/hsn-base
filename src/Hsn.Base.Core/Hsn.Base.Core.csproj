@@ -15,7 +15,6 @@
         <Title>Hsn Base Framework Core</Title>
         <Description>Hsn Base Framework Core</Description>
         <PackageTags>Hsn Base Framework Core</PackageTags>
-        <PackageReleaseNotes>This is the initial release</PackageReleaseNotes>
         <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     </PropertyGroup>
 
@@ -37,6 +36,10 @@
         <PackageReference Include="JetBrains.Annotations" Version="2022.1.0" />
         <PackageReference Include="Nito.AsyncEx.Coordination" Version="5.1.2" />
         <PackageReference Include="Nito.AsyncEx.Context" Version="5.1.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="README.md" Pack="true" Visible="false" PackagePath="README.md" />
     </ItemGroup>
 
 </Project>

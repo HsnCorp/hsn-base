@@ -15,12 +15,15 @@
         <Title>Hsn Base Framework</Title>
         <Description>Hsn Base Framework</Description>
         <PackageTags>Hsn Base Framework</PackageTags>
-        <PackageReleaseNotes>This is the initial release</PackageReleaseNotes>
         <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     </PropertyGroup>
 
     <ItemGroup>
         <ProjectReference Include="..\Hsn.Base.Core\Hsn.Base.Core.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="..\..\README.md" Pack="true" Visible="false" PackagePath="README.md" />
     </ItemGroup>
 
 </Project>
